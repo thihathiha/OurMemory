@@ -19,7 +19,6 @@ body {
     background-image: url('asset/img/bg.jpg');
     background-size: cover;
     background-position: center;
-    display: none;
 }
 
 nav {
@@ -176,7 +175,9 @@ footer small{
     bottom: 0;
     padding-bottom: 5px;
 } */
-
+#calendar{
+    display: none;
+}
 
 #calendar i{
     margin: 10px;
@@ -204,8 +205,8 @@ footer small{
 }
 
 #calendar .head .pf{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-right: 20px;
 }
 #calendar .head .pf img{
@@ -253,7 +254,7 @@ footer small{
     color: red;
 }
 .reaction span{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #00000075;
 }
 
