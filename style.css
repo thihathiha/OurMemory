@@ -99,7 +99,7 @@ nav h1 {
 }
 
 #profile {
-    margin-top: 230px;
+    margin-top: 240px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -156,14 +156,15 @@ nav h1 {
 }
 
 #quote p{
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    letter-spacing: 0.8px;
-    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
     width: 300px;
     text-align: center;
 }
 
-footer{
+/* footer{
     display: flex;
     justify-content: center;
 }
@@ -172,4 +173,4 @@ footer small{
     position: absolute;
     bottom: 0;
     padding-bottom: 5px;
-}
+} */
