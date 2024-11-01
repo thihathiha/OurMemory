@@ -113,6 +113,7 @@ nav h1 {
 #profile i{
     font-size: 1.9rem;
     color: red;
+    text-shadow: 1px 2px 5px rgba(255, 0, 0, 0.404);
 }
 
 .boy {
