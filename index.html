@@ -1,123 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- fontawesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- custom css -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <title>Our Memory</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="main">
+      <div class="post1">
         <nav>
-            <i class="fa-solid fa-photo-film"></i>
-            <h1>Our Memory</h1>
-            <i onclick="next()" class="far fa-calendar-minus"></i>
+          <i class="fa-solid fa-photo-film"></i>
+          <h1>Our Memory</h1>
+          <i onclick="next()" class="far fa-calendar-minus"></i>
         </nav>
 
         <section id="heartshape">
-            <div class="heart"></div>
-            <div id="countbox"></div>
+          <div class="heart"></div>
+          <div id="countbox"></div>
         </section>
+
+        <p id="anni">Our 1st Anniversary</p>
 
         <section id="profile">
-            <div class="boy">
-                <img src="asset/img/mypf.png" />
-            </div>
-            <i class="fa-solid fa-heart-pulse"></i>
-            <div class="girl">
-                <img src="asset/img/girlpf.jpg" />
-            </div>
-        </section>
+          <div class="boy">
+            <img src="asset/img/mypf.png" />
+            <span
+              >Mg
+              <i
+                style="color: red; font-size: 1rem"
+                class="fa-solid fa-heart"
+              ></i
+            ></span>
+          </div>
 
-        <section id="info">
-            <span>Mg <i style="color: red;" class="fa-solid fa-heart"></i></span>
-            <span>Kalay <i style="color: red;" class="fa-solid fa-heart"></i></span>
+          <i class="fa-solid fa-heart-pulse"></i>
+          <div class="girl">
+            <img src="asset/img/girlpf.jpg" />
+            <span
+              >Baby
+              <i
+                style="color: red; font-size: 1rem"
+                class="fa-solid fa-heart"
+              ></i
+            ></span>
+          </div>
         </section>
 
         <section id="quote">
-            <p>Separation is not the end of love; It creates love.</p>
+          <p>Separation is not the end of love; It creates love.</p>
         </section>
 
         <!-- <footer>
-            <small>THA+MTZH</small>
-        </footer> -->
+              <small>THA+MTZH</small>
+          </footer> -->
+      </div>
     </section>
 
     <section id="calendar">
-
+      <div class="post2">
         <nav>
-            <i onclick="back()" class="fa-solid fa-arrow-left"></i>
-            <span>Thiha Aung</span>
-            <i class="fa-solid fa-angles-right"></i>
+          <i onclick="back()" class="fa-solid fa-arrow-left"></i>
+          <span>Thiha Aung</span>
+          <i onclick="next()" class="fa-solid fa-angles-right"></i>
         </nav>
 
         <section id="upper">
-            <div class="head">
-                <div class="pf">
-                    <img src="asset/img/boypf.jpg" alt="pfphoto" />
-                </div>
-                <div class="name">
-                    <h1 style="margin-bottom: -5px;">Thiha Aung</h1>
-                    <p>4 Nov <i class="fa-solid fa-earth-asia"></i></p>
-                </div>
+          <div class="head">
+            <div class="pf">
+              <img src="asset/img/boypf.jpg" alt="pfphoto" />
             </div>
+            <div class="name">
+              <h1 style="margin-bottom: -5px">Thiha Aung</h1>
+              <p>4 Nov <i class="fa-solid fa-earth-asia"></i></p>
+            </div>
+          </div>
 
-            <div class="content">
-                <p>ဒီနေ့လေးကတော့ တစ်နှစ်မှာ တစ်ခါ ထူးခြားတဲ့ မရဲ့ မွေးနေ့နဲ့ မောင်တို့ ၇လပြည့်တဲ့နေ့လေးနဲ့
-                    ထပ်တူကျတဲ့နေ့လေးဖြစ်တာမို့ မောင် ဒီ postလေးကို အမှတ်တရအနေနဲ့ ရေးလိုက်ပါတယ်ဗျ. ၂၅နှစ်ပြည့်တဲ့
-                    မွေးနေ့မှစပြီး စိတ်၏ချမ်းသာခြင်း၊ ကိုယ်၏ကျန်းမာခြင်းတို့နှင့် ပြည့်စုံပါစေလို့
-                    မွေးနေ့ဆုမွန်ကောင်းတောင်းပေးလိုက်ပါတယ်ဗျ. ဒီနှစ်မှာတော့ မောင်မရှိပေးနိုင်သေးပေမယ့် နောက်နှစ်တွေမှာ
-                    တူတူရှိကြမယ်နော်. ပြောမပြတတ်လောက်အောင် လွမ်းပြီး ချစ်တယ် မရေ<i style="color: red;"
-                    class="fa-solid fa-heart"></i> </p>
-            </div>
+          <div class="content">
+            <p>
+              ဒီနေ့လေးကတော့ တစ်နှစ်မှာ တစ်ခါ ထူးခြားတဲ့ မရဲ့ မွေးနေ့နဲ့
+              မောင်တို့ ၇လပြည့်တဲ့နေ့လေးနဲ့ ထပ်တူကျတဲ့နေ့လေးဖြစ်တာမို့ မောင် ဒီ
+              postလေးကို အမှတ်တရအနေနဲ့ ရေးလိုက်ပါတယ်ဗျ. ၂၅နှစ်ပြည့်တဲ့
+              မွေးနေ့မှစပြီး စိတ်၏ချမ်းသာခြင်း၊ ကိုယ်၏ကျန်းမာခြင်းတို့နှင့်
+              ပြည့်စုံပါစေလို့ မွေးနေ့ဆုမွန်ကောင်းတောင်းပေးလိုက်ပါတယ်ဗျ.
+              ဒီနှစ်မှာတော့ မောင်မရှိပေးနိုင်သေးပေမယ့် နောက်နှစ်တွေမှာ
+              တူတူရှိကြမယ်နော်. ပြောမပြတတ်လောက်အောင် လွမ်းပြီး ချစ်တယ် မရေ<i
+                style="color: red"
+                class="fa-solid fa-heart"
+              ></i>
+            </p>
+          </div>
         </section>
         <div class="album">
-            <div class="one">
-                <div>
-                    <img src="asset/img/boypf.jpg" alt="photo" />
-                </div>
-                <div>
-                    <img src="asset/img/boypf.jpg" alt="photo" />
-                </div>
-            </div>
-            <div class="two">
-                <div>
-                    <img src="asset/img/boypf.jpg" alt="photo" />
-                </div>
-                <div>
-                    <img src="asset/img/boypf.jpg" alt="photo" />
-                </div>
-            </div>
+          <img src="asset/img/7month.png" alt="7month" />
         </div>
         <div class="reaction">
-            <i class="fa-brands fa-gratipay"></i><span>Thiha Aung and Hmway</span>
+          <i class="fa-brands fa-gratipay"></i><span>Thiha Aung and Hmway</span>
         </div>
         <div class="button">
-            <div style="color: red;">
-                <i class="fa-brands fa-gratipay"></i><span>Love</span>
-            </div>
-            <div>
-                <i class="fa-regular fa-comment"></i><span>Comment</span>
-            </div>
-            <div>
-                <i class="fa-solid fa-share"></i><span>Share</span>
-            </div>
+          <div style="color: red">
+            <i class="fa-brands fa-gratipay"></i><span>Love</span>
+          </div>
+          <div><i class="fa-regular fa-comment"></i><span>Comment</span></div>
+          <div><i class="fa-solid fa-share"></i><span>Share</span></div>
         </div>
-
+      </div>
     </section>
 
-    <script src="app.js">
+    <section id="calendar">
+      <div class="post3">
+        <nav>
+          <i onclick="back()" class="fa-solid fa-arrow-left"></i>
+          <span>Thiha Aung</span>
+          <i
+            style="font-size: 1.2rem"
+            onclick="next()"
+            class="fa-solid fa-home"
+          ></i>
+        </nav>
 
-    </script>
-</body>
+        <section id="upper">
+          <div class="head">
+            <div class="pf">
+              <img src="asset/img/boypf.jpg" alt="pfphoto" />
+            </div>
+            <div class="name">
+              <h1 style="margin-bottom: -5px">Thiha Aung</h1>
+              <p>4 Nov <i class="fa-solid fa-earth-asia"></i></p>
+            </div>
+          </div>
 
+          <div class="content">
+            <p>
+              ဒီနေ့လေးကတော့ တစ်နှစ်မှာ တစ်ခါ ထူးခြားတဲ့ မရဲ့ မွေးနေ့နဲ့
+              မောင်တို့ ၇လပြည့်တဲ့နေ့လေးနဲ့ ထပ်တူကျတဲ့နေ့လေးဖြစ်တာမို့ မောင် ဒီ
+              postလေးကို အမှတ်တရအနေနဲ့ ရေးလိုက်ပါတယ်ဗျ. ၂၅နှစ်ပြည့်တဲ့
+              မွေးနေ့မှစပြီး စိတ်၏ချမ်းသာခြင်း၊ ကိုယ်၏ကျန်းမာခြင်းတို့နှင့်
+              ပြည့်စုံပါစေလို့ မွေးနေ့ဆုမွန်ကောင်းတောင်းပေးလိုက်ပါတယ်ဗျ.
+              ဒီနှစ်မှာတော့ မောင်မရှိပေးနိုင်သေးပေမယ့် နောက်နှစ်တွေမှာ
+              တူတူရှိကြမယ်နော်. ပြောမပြတတ်လောက်အောင် လွမ်းပြီး ချစ်တယ် မရေ<i
+                style="color: red"
+                class="fa-solid fa-heart"
+              ></i>
+            </p>
+          </div>
+        </section>
+        <div class="album">
+          <!-- <img src="asset/img/7month.png" alt="7month" /> -->
+        </div>
+        <div class="reaction">
+          <i class="fa-brands fa-gratipay"></i><span>Thiha Aung and Hmway</span>
+        </div>
+        <div class="button">
+          <div style="color: red">
+            <i class="fa-brands fa-gratipay"></i><span>Love</span>
+          </div>
+          <div><i class="fa-regular fa-comment"></i><span>Comment</span></div>
+          <div><i class="fa-solid fa-share"></i><span>Share</span></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
 </html>
