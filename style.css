@@ -63,7 +63,7 @@ body {
   background-image: url("asset/img/bg.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 
 nav {
