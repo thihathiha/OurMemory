@@ -33,7 +33,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: 10
+  z-index: 10;
 }
 .question p{
   margin: 20px;
@@ -149,6 +149,60 @@ nav h1 {
   text-align: center;
   margin-top: 1.5rem;
   display: none;
+}
+
+#anni::before{
+  content: 'ချစ်တယ်နော်';
+  font-size: 0.6rem;
+  text-shadow: 50px 50px 0 #000;
+
+  position: absolute;
+  animation: anni1 5s linear infinite alternate;
+}
+
+#anni::after{
+  content: 'ချစ်တယ်နော်';
+  font-size: 0.6rem;
+  text-shadow: 50px 50px 0 #000;
+
+  position: absolute;
+  animation: anni2 6s linear infinite alternate;
+}
+
+@keyframes anni1{
+  0%{
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%,50%);
+  }
+  50%{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  100%{
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
+  }
+}
+
+@keyframes anni2{
+  0%{
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
+  }
+  50%{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  100%{
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%,50%);
+  }
 }
 
 #profile {
