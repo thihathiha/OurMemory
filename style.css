@@ -19,7 +19,7 @@ body {
 
 #main .post1 {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url("asset/img/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -308,14 +308,14 @@ footer small{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 3px;
+  gap: 2px;
 }
 
 #gallery .album div img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 2px solid #0000008b;
+  border: 1.5px solid #0000008b;
 }
 
 #gallery .album .cap{
