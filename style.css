@@ -15,7 +15,43 @@ body {
 
 #main {
   /* display: none; */
+  position: relative;
 }
+
+#main .question{
+  width: 300px;
+  height: 150px;
+  border: 2px solid #00000067;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 225, 0.472);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10
+}
+.question p{
+  margin: 20px;
+}
+
+.question div{
+  width: 50%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question small{
+  padding: 6px 20px;
+  background-color: rgba(255, 0, 149, 0.651);
+  cursor: pointer;
+}
+
 
 #main .post1 {
   width: 100%;
@@ -23,6 +59,7 @@ body {
   background-image: url("asset/img/bg.jpg");
   background-size: cover;
   background-position: center;
+  opacity: 0.2;
 }
 
 nav {

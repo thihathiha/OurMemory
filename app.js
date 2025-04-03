@@ -89,3 +89,12 @@ function galleryback(){
   document.querySelector("#main").style.display = "block";
 }
 
+function blockyes(){
+  document.querySelector(".question").style.display = "none";
+  document.querySelector(".post1").style.opacity = "1";
+}
+
+function blockno(){
+  document.querySelector("body").style.display = "none";
+}
+
