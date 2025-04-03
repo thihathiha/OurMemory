@@ -19,8 +19,8 @@ body {
 }
 
 #main .question{
-  width: 300px;
-  height: 150px;
+  width: 310px;
+  height: 160px;
   border: 2px solid #00000067;
   border-radius: 10px;
   background-color: rgba(255, 0, 225, 0.472);
@@ -37,7 +37,7 @@ body {
 }
 .question p{
   margin: 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .question div{
