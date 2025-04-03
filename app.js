@@ -78,3 +78,14 @@ function display() {
 }
 
 display();
+
+function gallery(){
+  document.querySelector("#gallery").style.display = "block";
+  document.querySelector("#main").style.display = "none";
+}
+
+function galleryback(){
+  document.querySelector("#gallery").style.display = "none";
+  document.querySelector("#main").style.display = "block";
+}
+

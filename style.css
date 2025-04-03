@@ -14,13 +14,15 @@ body {
 }
 
 #main {
+  /* display: none; */
+}
+
+#main .post1 {
   width: 100%;
   height: 100%;
   background-image: url("asset/img/bg.jpg");
   background-size: cover;
   background-position: center;
-
-  /* display: none; */
 }
 
 nav {
@@ -194,7 +196,7 @@ footer small{
   /* display: none; */
 }
 
-#calendar i {
+#calendar i, #gallery i {
   margin: 10px;
   cursor: pointer;
 }
@@ -209,7 +211,7 @@ footer small{
   font-size: 1rem;
 }
 
-#calendar nav {
+#calendar nav,#gallery nav {
   margin-bottom: 15px;
   width: 100%;
   height: 40px;
@@ -277,4 +279,74 @@ footer small{
 }
 .button i {
   font-size: 1.2rem;
+}
+
+#gallery{
+  display: none;
+}
+
+#gallery .caption{
+  width: 100%;
+  border: 1px solid #00000034;
+}
+
+#gallery .caption p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin-left: 10px;
+  padding: 2px 0 2px 5px;
+  
+  border-left: 1px solid #00000034;
+}
+
+#gallery .album{
+  width: 100%;
+  height: 210px;
+  margin: 5px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3px;
+}
+
+#gallery .album div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #0000008b;
+}
+
+#gallery .album .cap{
+  position: relative;
+}
+
+#gallery .album .cap::before{
+  content: 'Her Reply';
+  font-family: Arial;
+  font-size: 0.4rem;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 10px;
+
+  background-color: #0000004c;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#gallery .album .cap1::before,#gallery .album  .cap2::before,#gallery .album  .cap3::before{
+  content: 'Her Sleeping';
+}
+
+#gallery .album .cap4::before,#gallery .album  .cap5::before{
+  content: 'Her Smiling';
+}
+@media (min-width: 768px) {
+  body {
+    display: none;
+  }
 }
